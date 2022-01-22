@@ -27,6 +27,9 @@ function Model_Loaded(){
 }
 function draw(){
     image(video, 00, 00, 600, 600)
+    fill("red")
+    stroke("red")
+    circle(noseX, noseY, 40);
 }
 function SNAPSHOT(){
     save("unnamed.png")
